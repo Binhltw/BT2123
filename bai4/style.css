@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    height: 75px;
+    background-color: aqua;
+}
+ul li {
+    display: inline-block;
+    line-height: 75px;
+    padding: 0 7.5%;
+}
+ul li:hover {
+    background-color: blue;
+}
+li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+ul li:hover a {
+    color: #fff;
+}
